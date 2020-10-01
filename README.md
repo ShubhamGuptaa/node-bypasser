@@ -2,9 +2,9 @@
 [![Build Status](https://travis-ci.org/matteocontrini/node-bypasser.svg?branch=master)](https://travis-ci.org/matteocontrini/node-bypasser)
 [![npm version](https://badge.fury.io/js/node-bypasser.svg)](https://badge.fury.io/js/node-bypasser)
 
-Bypass URL shortener websites
+Bypass URL shortener websites with an amazing tool. You can follow the following steps to install the tool in your computer.
 
-## Install
+## Installation process
 
 ```bash
 npm install --save node-bypasser
@@ -28,7 +28,7 @@ The output will be
 Decrypted: https://github.com/matteocontrini/node-bypasser/
 ```
 
-## Testing
+## Testing phase
 
 ```bash
 npm run test
@@ -38,7 +38,7 @@ npm run test
 
 Unit tests may occasionally fail when there are network connectivity issues or when services' servers give bad temporary responses.
 
-## Supported websites
+## Our Supported websites
 * Adf.ly
 * Linkbucks.com (all alternative domains)
 * Shorte.st (sh.st, u2ks.com, jnw0.com, digg.to, dh10thbvu.com)
@@ -51,4 +51,4 @@ Unit tests may occasionally fail when there are network connectivity issues or w
 * NowVideo and AuroraVid (MP4/FLV video direct link will be extracted)
 * All generic services that use simple 301/302 redirect (goo.gl, bit.ly, t.co,...)
 
-## [Request a new service](https://github.com/matteocontrini/node-bypasser/issues)
+## [You can also request a new service](https://github.com/matteocontrini/node-bypasser/issues)
